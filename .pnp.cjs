@@ -35,10 +35,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.18.11"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e47e54ad26381858dfb213ed42014296af44753a1b18ad1eac094a50191cfe227bd625900ff529fca74192fd996aed5cb5a2507f55cc7a030da5487784b765b3#npm:18.2.0"],\
             ["react-scripts", "virtual:e47e54ad26381858dfb213ed42014296af44753a1b18ad1eac094a50191cfe227bd625900ff529fca74192fd996aed5cb5a2507f55cc7a030da5487784b765b3#npm:5.0.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -4724,7 +4725,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["regexpp", "npm:3.2.0"],\
             ["semver", "npm:7.3.8"],\
             ["tsutils", "virtual:a800082f8d352a64a13a41047815c17061dcc19dcafe8e90253e8081052af2fc4baed37a13dda380e2f4cf26201d6db0f2a4f2d783afb18c91a9b0dbabae246f#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -4779,7 +4780,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:39c34b74a3cb751887d5db9589f1927cbb4d38b4ef651ed7787991cafa886072cd808b958e323be9c74da25becff5a3b53686bcd934918fa2e2502df589b2a6a#npm:5.48.1"],\
             ["debug", "virtual:68fa1c73c8a72515d25eaa47c88fa7c560bf130de4f3364a9b6d609d13e1829a816ec0c736f56d3fcc20f15ad0950c234159dca04d6c003fcb753985d78df618#npm:4.3.4"],\
             ["eslint", "npm:8.31.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -4820,7 +4821,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:68fa1c73c8a72515d25eaa47c88fa7c560bf130de4f3364a9b6d609d13e1829a816ec0c736f56d3fcc20f15ad0950c234159dca04d6c003fcb753985d78df618#npm:4.3.4"],\
             ["eslint", "npm:8.31.0"],\
             ["tsutils", "virtual:a800082f8d352a64a13a41047815c17061dcc19dcafe8e90253e8081052af2fc4baed37a13dda380e2f4cf26201d6db0f2a4f2d783afb18c91a9b0dbabae246f#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -4860,7 +4861,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["semver", "npm:7.3.8"],\
             ["tsutils", "virtual:a800082f8d352a64a13a41047815c17061dcc19dcafe8e90253e8081052af2fc4baed37a13dda380e2f4cf26201d6db0f2a4f2d783afb18c91a9b0dbabae246f#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -8083,7 +8084,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:7aa44ddf1db13366bdd75bdc1cce21c47311f6f3f9f67ccfccb183db1d949dc24830ed1d337c8e1109d1c590628da1ad190a75fa8cd279eb5ee028d471e45258#npm:7.31.11"],\
             ["eslint-plugin-react-hooks", "virtual:7aa44ddf1db13366bdd75bdc1cce21c47311f6f3f9f67ccfccb183db1d949dc24830ed1d337c8e1109d1c590628da1ad190a75fa8cd279eb5ee028d471e45258#npm:4.6.0"],\
             ["eslint-plugin-testing-library", "virtual:7aa44ddf1db13366bdd75bdc1cce21c47311f6f3f9f67ccfccb183db1d949dc24830ed1d337c8e1109d1c590628da1ad190a75fa8cd279eb5ee028d471e45258#npm:5.9.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -8920,7 +8921,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["schema-utils", "npm:2.7.0"],\
             ["semver", "npm:7.3.8"],\
             ["tapable", "npm:1.1.3"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
             ["vue-template-compiler", null],\
             ["webpack", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:5.75.0"]\
           ],\
@@ -14531,7 +14532,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["shell-quote", "npm:1.7.4"],\
             ["strip-ansi", "npm:6.0.1"],\
             ["text-table", "npm:0.2.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
             ["webpack", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:5.75.0"]\
           ],\
           "packagePeers": [\
@@ -14668,7 +14669,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["style-loader", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:3.3.1"],\
             ["tailwindcss", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:3.2.4"],\
             ["terser-webpack-plugin", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:5.3.6"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
             ["webpack", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:5.75.0"],\
             ["webpack-dev-server", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:4.11.1"],\
             ["webpack-manifest-plugin", "virtual:898b84267e00537e528b2bfee800f3919931fbeeb192c7154e3285c4b6e084aaeaec62ed3f35138b586ac96a5131ae25f843864934d72568e95f29f1c300500e#npm:4.1.1"],\
@@ -16319,7 +16320,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsutils", "virtual:a800082f8d352a64a13a41047815c17061dcc19dcafe8e90253e8081052af2fc4baed37a13dda380e2f4cf26201d6db0f2a4f2d783afb18c91a9b0dbabae246f#npm:3.21.0"],\
             ["@types/typescript", null],\
             ["tslib", "npm:1.14.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -16412,10 +16413,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-b74a6ef84c-37f6e2c3c5.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-7bc527fc0a-1caaea6cb7.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16701,10 +16702,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.18.11"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/testing-library__jest-dom", "npm:5.14.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e47e54ad26381858dfb213ed42014296af44753a1b18ad1eac094a50191cfe227bd625900ff529fca74192fd996aed5cb5a2507f55cc7a030da5487784b765b3#npm:18.2.0"],\
             ["react-scripts", "virtual:e47e54ad26381858dfb213ed42014296af44753a1b18ad1eac094a50191cfe227bd625900ff529fca74192fd996aed5cb5a2507f55cc7a030da5487784b765b3#npm:5.0.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -17517,6 +17519,7 @@ const StringDecoder = require('string_decoder');
 const url = require('url');
 const os = require('os');
 const nodeUtils = require('util');
+const readline = require('readline');
 const assert = require('assert');
 const stream = require('stream');
 const zlib = require('zlib');
@@ -21429,6 +21432,12 @@ class FileHandle {
     } finally {
       this[kUnref]();
     }
+  }
+  readLines(options) {
+    return readline.createInterface({
+      input: this.createReadStream(options),
+      crlfDelay: Infinity
+    });
   }
   async stat(opts) {
     try {
@@ -26125,6 +26134,9 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
+const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
+const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2;
+
 const builtinModules = new Set(require$$0.Module.builtinModules || Object.keys(process.binding(`natives`)));
 const isBuiltinModule = (request) => request.startsWith(`node:`) || builtinModules.has(request);
 function readPackageScope(checkPath) {
@@ -26159,13 +26171,19 @@ Instead change the require of ${basename} in ${parentPath} to a dynamic import()
   err.code = `ERR_REQUIRE_ESM`;
   return err;
 }
-
-const shouldReportRequiredModules = process.env.WATCH_REPORT_DEPENDENCIES;
-function reportModuleToWatchMode(filename) {
-  if (shouldReportRequiredModules && process.send) {
-    process.send({ "watch:require": npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))) });
+function reportRequiredFilesToWatchMode(files) {
+  if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
+    files = files.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))));
+    if (WATCH_MODE_MESSAGE_USES_ARRAYS) {
+      process.send({ "watch:require": files });
+    } else {
+      for (const filename of files) {
+        process.send({ "watch:require": filename });
+      }
+    }
   }
 }
+
 function applyPatch(pnpapi, opts) {
   const defaultCache = {};
   let enableNativeHooks = true;
@@ -26225,7 +26243,7 @@ function applyPatch(pnpapi, opts) {
     }
     const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
     module.pnpApiPath = moduleApiPath;
-    reportModuleToWatchMode(modulePath);
+    reportRequiredFilesToWatchMode([modulePath]);
     entry.cache[modulePath] = module;
     if (isMain) {
       process.mainModule = module;
@@ -27583,6 +27601,7 @@ Required by: ${issuerLocator.name}@${issuerLocator.reference} (via ${issuerForDi
     if (qualifiedPath) {
       return ppath.normalize(qualifiedPath);
     } else {
+      reportRequiredFilesToWatchMode(candidates.map((candidate) => npath.fromPortablePath(candidate)));
       const unqualifiedPathForDisplay = getPathForDisplay(unqualifiedPath);
       const containingPackage = findPackageLocator(unqualifiedPath);
       if (containingPackage) {
